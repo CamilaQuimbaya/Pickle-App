@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+ 
+  font-family: 'Fredoka One', cursive !important;
+}
+header{  
+  padding: 0 !important;
+  background-image: url('../img/rick-y-morty-en-universo-de-dragon-ball_3840x2160_xtrafondos.com.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 700px;
+}
+p{
+  font-size: 30px;
+}
+nav ul li a {
+  color: aliceblue !important;
+}
+#text-land{
+  color: rgb(30, 33, 36);
+  padding-left: 30px;
+  margin-top: 250px;
+  
+}
+#name-page{
+  color: aliceblue !important;
+  font-size: 30px;
+}
+/* From cssbuttons.io by @xueyuantan */
+.btn-search {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-image: linear-gradient(to right, #d5a8db 0%, #81548f 100%); 
+  
+ }
+ 
+ .btn-search::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .btn-search:hover::before {
+  width: 9em;
+ }
+ #btn-collapse{
+   color: rgb(122, 243, 118);
+ }
+ #form-search{
+   border-radius: 60px;
+   border-color: rgba(128, 255, 0, 0.37);
+ }
+ #carouselExampleFade{
+   margin-top: 100px;
+   width: 80%;
+ }
+ #character-sec{
+   background-image: url('../img/Rick-and-Morty-Wallpapers-Top-Free-Rick-and-Morty-.jpg');
+   background-repeat: no-repeat;
+   background-size: cover; 
+   height: 1000px; 
+ }
+ .img-carrou{
+   height: 500px;
+   border-radius: 60px;
+ }
+ .title-sect{
+   font-size: 40px;
+   padding-top: 40px;
+   padding-left: 40px;
+   color: aliceblue;
+ }
+ #places{
+  background-image: url('../img/Rick-and-Morty-Wallpapers-Top-Free-Rick-and-Morty-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 1000px; 
+ }

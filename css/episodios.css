@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+  background-image: url('../img/41-410880_rick-and-morty-desktop-wallpapers-with-high-resolution.jpg');
+  font-family: 'Fredoka One', cursive !important;
+}
+h4{
+  padding-left: 30px;
+  padding-top: 20px;
+  color: rgb(46, 66, 26);
+}
+#footer{ 
+  height: 300px;  
+}
+#containerOfEpisodios{
+ padding: 5% 5% 0% 5%;
+ 
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.title-epi{
+  padding-top: 100px;
+  padding-left: 100px;
+  color: aliceblue;
+  font-size: 50px;
+}
+.containerEpisode{
+  border: 2px solid;
+  border-color: chartreuse;
+  background-color: rgba(128, 255, 212,0.5);
+  border-radius: 30px;
+}
+/* From cssbuttons.io by @kirzin */
+.btn-search {
+  text-decoration: none;
+  position: absolute;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+ }
+ 
+ .btn-search:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ 
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+ 
+  100% {
+   background-position: 400%;
+  }
+ }
+ 
+ .btn-search:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ 
+ .btn-search:hover::before {
+  filter: blur(20px);
+ }
+ 
+ .btn-search:active {
+  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+ }
+ #name-page{
+   color: aliceblue !important;
+ }
+ .btn-a{
+   color: aliceblue;
+   text-decoration: none;
+ }
